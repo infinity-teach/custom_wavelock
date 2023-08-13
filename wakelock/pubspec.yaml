@@ -15,13 +15,21 @@ dependencies:
   meta: ^1.2.0
 
   wakelock_macos:
-    path: ../wakelock_macos
+      git:
+        url: https://github.com/infinity-teach/custom_wavelock.git
+        path: wakelock_macos
   wakelock_platform_interface:
-    path: ../wakelock_platform_interface
+    git:
+      url: https://github.com/infinity-teach/custom_wavelock.git
+      path: wakelock_platform_interface
   wakelock_web:
-    path: ../wakelock_web
+    git:
+      url: https://github.com/infinity-teach/custom_wavelock.git
+      path: wakelock_web
   wakelock_windows:
-    path: ../wakelock_windows
+    git:
+      url: https://github.com/infinity-teach/custom_wavelock.git
+      path: wakelock_windows
 
 dev_dependencies:
   flutter_test:

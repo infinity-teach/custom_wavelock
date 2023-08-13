@@ -12,7 +12,9 @@ dependencies:
     sdk: flutter
 
   wakelock_platform_interface:
-    path: ../wakelock_platform_interface
+    git:
+      url: https://github.com/infinity-teach/custom_wavelock.git
+      path: wakelock_platform_interface
   win32: ^5.0.5
 
 dev_dependencies:
